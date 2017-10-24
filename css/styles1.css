@@ -1,5 +1,5 @@
 .nav {
-    bg-color: #fff;
+    background-color: #fff;
 }
 
 .padmar {
@@ -40,10 +40,26 @@ body {
     left: 31%;     
     width: 9.5%;   
     z-index: 5;
-    -webkit-transition: width 1s 0.2s, left 1s 0.2s, top 1s 0.2s;
-    transition: width 1s 0.2s, left 1s 0.2s, top 1s 0.2s;
+    -webkit-transition: all 1s 0.2s;
+    transition: all 1s 0.2s;
 
 }
+
+#Tablet.loadPosition {
+    left: 0%;
+    top: 10%;
+    width: 24%;
+}
+
+/* img#Tablet.takePosition {
+    top: 39.5%;     
+    left: -131%;  
+    transform: rotate(-280deg);
+    transition: all 1s;
+
+}  */
+
+
 
 #Mobile {
     display: block;
@@ -90,41 +106,90 @@ body {
     display: block;
 }
 
-#designCodeParent {
+#collageParent {
     display: block;
     position: relative;
 }
 
-#designCode {
+#collage {
     display: block;
     position: relative;
     width: 94%;
     left: 3%;
-    top: 10%;
+    top: 7%;
     z-index: 1;
 }
 
-#elf {
+#designCode {
+    display: block;
+    position: absolute;
+    width: 94%;
+    left: 3%;
+    top: 7%;
+    z-index: 2;
+    opacity: 0;
+    transition-delay: 1s;
+    transition: all 1.5s ease-out;
+}
+
+#designCode.takePosition {
+opacity: 1;
+}
+
+
+
+/* #elf {
     display: block;
     position: absolute;
     width: 40%;
+    top: 120%;
+    left: 150%;
+    box-shadow: 3px 3px 5px rgba(1, 1, 1, 0.7);
+    z-index: 2;
+    -ms-transform: rotate(-50deg);
+    -webkit-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+    -webkit-transition-delay: 1s;
+    transition-delay: 1s;
+    transition: all 0.2s ease-out;
+}
+
+#elf.takePosition {
     top: 45%;
     left: 55%;
-    z-index: 2;
-    -ms-transform: rotate(20deg); /* IE 9 */
-    -webkit-transform: rotate(20deg); /* Safari */
-    transform: rotate(11deg); */
+
+    -ms-transform: rotate(20deg); 
+    -webkit-transform: rotate(20deg);
+    transform: rotate(11deg);
 }
 
 #nebula {
     position: absolute;
     width: 29%;
     z-index: 3;
+    left: 150%;
+    top: 150%;
+    box-shadow: 3px 3px 5px rgba(1, 1, 1, 0.7);
+    -ms-transform: rotate(-50deg);
+    -webkit-transform: rotate(-50deg); 
+    transform: rotate(-150deg);
+    transition-delay: 1s;
+    transition: all 0.2s ease-out;
+}
+
+#nebula.takePosition {
     left: 59.5%;
     top: 17.5%;
-    -ms-transform: rotate(-19deg); /* IE 9 */
-    -webkit-transform: rotate(-19deg); /* Safari */
-    transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg); 
+    -webkit-transform: rotate(-15deg); 
+    transform: rotate(-15deg);   */
+}
+
+#dcTrigger {
+    position: absolute;
+    height: 1px;
+    top: 10%;
+    left: 10%;
 }
 
 @media (min-width: 970px) {
@@ -148,16 +213,25 @@ body {
 
 @media (max-width: 575px) {
 
-dcParent {
+collageGParent {
     justify-content: center;
 }
 
-#designCode {
+#collage {
 
-        width: 70%;
+        width: 80%;
         margin: 0px auto;
-
     }
+
+#elf {
+    width: 32%;
+}
+
+#nebula {
+    width: 23%;
+}
+
+
 }
 
 #keepRatio {

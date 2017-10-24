@@ -10,7 +10,7 @@
     <title>david m salisbury</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/styles1.css" rel="stylesheet">
 
   </head>
 
@@ -71,8 +71,8 @@
     <div class="container pt-1">
       <div class="row py-3 py-md-5 py-lg-5">
 
-        <div class="col-md-6 col-lg-7 py-4" style="background-color:aquamarine;">
-          <h4 class="my-3">About David Salisbury</h4>
+        <div class="col-md-6 col-lg-7 py-4">
+          <h4 id="dcTrigger" class="my-3">About David Salisbury</h4>
           <p class="pt-3">David has a background in visual effects, having studied and later taught on the
             Digital Visual Effects MSc at the University of Kent. His colleagues and students have gone
             on to work on top Hollywood films including The Force Awakens, The Martian, Passengers and 
@@ -82,11 +82,11 @@
             and is currently expanding his skillset into angular, React and node.js.
           </p>
         </div>
-        <div id="dcParent" class="col-md-6 col-lg-5 pt-sm-5 pt-md-3 pt-lg-1 px-none" style="background-color: green;">
-          <div id="designCodeParent">
-            <img id="designCode" class="" src="img/DesignCode.jpg" width="100%" alt="">
-            <img id="elf" class="" src="img/elf.jpg" width="100%" alt="">
-            <img id="nebula" class="" src="img/nebula.jpg" width="100%" alt="">
+        <div id="collageGParent" class="col-md-6 col-lg-5 pt-sm-5 pt-md-3 pt-lg-1 px-none">
+          <div id="collageParent">
+              <div id="nebularTrigger"></div>
+            <img id="collage" class="" src="img/collage.jpg" width="100%" alt="">
+            <img id="designCode" class="" src="img/designCode.png" width="100%" alt="">
           </div>
         </div>
       </div>
@@ -113,8 +113,6 @@
         </div>
     </div>
     
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script> -->
     <script
     src="https://code.jquery.com/jquery-3.2.1.min.js"
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -122,14 +120,12 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-    <script src="js/myjavascript.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
 
-  <!--  <script>$(document).ready(function(){
-            
-              $(".text-center").animate({left: '900px'}).animate({left: '800px'});
-  -->
-        });</script>
+    <script src="js/ScrollMagic.js"></script>
+    <script src="js/debug.addIndicators.js"></script>
+    <script src="js/myjavascript.js"></script>
+
+
         <script>
             $(document).ready(function(){
               // Add smooth scrolling to all links
