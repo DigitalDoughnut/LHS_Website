@@ -15,6 +15,110 @@ body {
     overflow-x: hidden;
 }
 
+#test {
+    background-image: url("../img/elfPicThumb.jpg")
+}
+
+#elfPic, #modelPic, #woodNymph, #apePic, #AlicePic {
+    background-image: url('../img/elfPicThumb.jpg');
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#ThumbAlice, #ThumbElf, #Thumb3D {
+    cursor: pointer;
+}
+
+#elfPic:hover {
+    background-image: url("../img/elfPicThumbB4.jpg");
+    -moz-transition: all 0.5s;
+}
+
+#elfThumb {
+    background-image: url("../img/elfPicThumb.jpg");
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    -moz-transition: all 0.5s;
+}
+
+#elfThumb:hover {
+    background-image: url("../img/elfPicThumbB4.jpg");
+    -moz-transition: all 0.5s;
+}
+
+#Model3DThumb {
+    background-image: url("../img/elfPicThumb.jpg");
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    -moz-transition: all 0.5s;
+}
+
+#Model3DThumb:hover {
+    background-image: url("../img/elfPicThumbB4.jpg");
+    -moz-transition: all 0.5s;
+}
+
+#AliceThumb {
+    background-image: url("../img/AliceThumbWide.jpg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100%;
+    min-height: 56px;
+    position: relative;
+    -moz-transition: all 0.5s;
+}
+
+#AliceThumb:hover {
+    background-image: url("../img/AliceThumbWideOver.jpg");
+    -moz-transition: all 0.5s;
+}
+
+#modelPic {
+    background-image: url('../img/3DModelTexThumb.jpg');
+}
+
+#modelPic:hover {
+    background-image: url("../img/3DModelTexThumbBW.jpg");
+}
+
+#woodNymph {
+    background-image: url('../img/woodNymphThumb.jpg');
+}
+
+
+#woodNymph:hover {
+    background-image: url("../img/woodNymphOver.jpg");
+}
+
+#apePic {
+    background-image: url('../img/apeThumb.jpg');
+}
+
+
+#apePic:hover {
+    background-image: url("../img/apeThumbBW.jpg");
+}
+
+#AlicePic {
+    background-image: url('../img/AliceThumb.jpg');
+}
+
+
+#AlicePic:hover {
+    background-image: url("../img/AliceThumbOver.jpg");
+}
+
+.card {
+    background-color: #EEE;
+    margin-top: 10px;
+}
+
 .pcPic {
 
     width: 100%;
@@ -22,6 +126,7 @@ body {
     padding-left: 2%;
     padding-right: 2%;
 }
+
 
 #PC {
     position: absolute;

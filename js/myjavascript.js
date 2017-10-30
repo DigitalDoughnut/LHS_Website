@@ -8,6 +8,39 @@ $("img#Mobile").css({'left': '83%', 'top': '23%', 'width': '14.5%'});
 $("img#Tablet2").css({'left': '31%', 'top': '39.5%', 'width': '9.5%'});
 $("img#Mobile2").css({'left': '63%', 'top': '46%', 'width': '4.5%'});
 
+$("#Thumb3D").mouseover(function(){
+    $("#Thumb3D").attr("src","second.jpg");
+});
+
+$("#dcTrigger").mouseover(function(){
+    $("#dcTrigger").css("background-color: yellow;");
+});
+
+$( "#Thumb3D" ).hover(
+    function() {
+      $( this ).attr("src","img/3DModelTexThumbOver.jpg");
+    }, function() {
+      $( this ).attr("src","img/3DModelTexThumb.jpg");
+    }
+  );
+
+  $( "#ThumbAlice" ).hover(
+    function() {
+      $( this ).attr("src","img/AliceThumbWideOver.jpg");
+    }, function() {
+      $( this ).attr("src","img/AliceThumbWide.jpg");
+    }
+  );
+
+  $( "#ThumbElf" ).hover(
+    function() {
+      $( this ).attr("src","img/elfPicThumbOver.jpg");
+    }, function() {
+      $( this ).attr("src","img/elfPicThumb.jpg");
+    }
+  );
+
+
 
 var controller = new ScrollMagic.Controller();
 
