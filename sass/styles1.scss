@@ -1,0 +1,234 @@
+@import 'compass';
+
+
+body {
+    overflow-x: hidden;
+}
+
+.nav {
+    background-color: #fff;
+}
+
+.padmar {
+    width: 100%;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer h5, footer a {
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#elfPic, #modelPic, #woodNymph, #apePic, #AlicePic {
+    background-image: url('../img/elfPicThumb.jpg');
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    @include transition (all 0.5s);
+}
+
+#ThumbAlice, #ThumbElf, #Thumb3D {
+    cursor: pointer;
+}
+
+
+.card {
+    background-color: #EEE;
+    margin-top: 10px;
+}
+
+
+#videoContainer {
+    border: 2px;
+    border-color: grey;
+    background-color: #EEE;
+    padding: 10px 0px;
+}
+
+.pcPic {
+
+    width: 100%;
+    padding: 0px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+#PC {
+    position: absolute;
+    display: block;
+    top: 5%;
+    left: 0%;
+    width: 100%;
+    z-index: 1;
+
+}
+
+#Tablet {
+    position: absolute;
+    display: block;
+    top: 39.5%;     
+    left: 31%;     
+    width: 9.5%;   
+    z-index: 5;
+    @include transition (all 1s 0.2s);
+
+}
+
+#Tablet.loadPosition {
+    left: 0%;
+    top: 10%;
+    width: 24%;
+}
+
+#Mobile {
+    display: block;
+    position: absolute;
+    top: 46%;  
+    left: 63%; 
+    width: 4.5%; 
+    z-index: 4;
+    @include transition (width 1s 0.2s, left 1s 0.2s, top 1s 0.2s);
+}
+
+
+#Tablet2 {
+    position: absolute;
+    display: block;
+    top: 51%;   
+    left: 42.5%;   
+    width: 3.75%;  
+    z-index: 2;
+    @include transition (width 1s 0.2s, left 1s 0.2s, top 1s 0.2s);
+}
+
+#Mobile2 {
+    display: block;
+    position: absolute;
+    top: 53%;   
+    left: 55%;  
+    width: 2%;
+    z-index: 3;
+    @include transition (width 1s 0.2s, left 1s 0.2s, top 1s 0.2s);
+}
+
+#introText1 {
+    display: none;
+}
+#introText2 {
+    display: block;
+}
+
+#collageParent {
+    display: block;
+    position: relative;
+}
+
+#collage {
+    display: block;
+    position: relative;
+    width: 94%;
+    left: 3%;
+    top: 7%;
+    z-index: 1;
+}
+
+#designCode {
+    display: block;
+    position: absolute;
+    width: 94%;
+    left: 3%;
+    top: 7%;
+    z-index: 2;
+    opacity: 0;
+    @include transition-delay (1s);
+    @include transition (all 1.5s ease-out);
+}
+
+#designCode.takePosition {
+opacity: 1;
+}
+
+.card {
+    min-height: 100%;
+}
+
+footer {
+    color: white;
+}
+footer a:hover, h6{
+    text-decoration: none;
+    color: #bbb;
+}
+
+
+#dcTrigger {
+    position: absolute;
+    height: 1px;
+    top: 10%;
+    left: 10%;
+}
+
+@media (min-width: 970px) {
+    #introText1 {
+        display: block;
+    }
+    #introText2 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 767px) {
+    
+.pcPic {
+
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+@media (max-width: 575px) {
+
+collageGParent {
+    justify-content: center;
+}
+
+#collage {
+
+        width: 80%;
+        margin: 0px auto;
+    }
+
+#elf {
+    width: 32%;
+}
+
+#nebula {
+    width: 23%;
+}
+
+
+}
+
+#keepRatio {
+    position: relative;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    
+    padding: 0px;
+    width: 100%;
+    padding-bottom: 57% !important; /* 44% */
+
+
+}
+

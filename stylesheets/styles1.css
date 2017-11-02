@@ -1,0 +1,271 @@
+/* line 4, ../sass/styles1.scss */
+body {
+  overflow-x: hidden;
+}
+
+/* line 8, ../sass/styles1.scss */
+.nav {
+  background-color: #fff;
+}
+
+/* line 12, ../sass/styles1.scss */
+.padmar {
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 21, ../sass/styles1.scss */
+footer h5, footer a {
+  color: white;
+}
+
+/* line 25, ../sass/styles1.scss */
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+/* line 31, ../sass/styles1.scss */
+#elfPic, #modelPic, #woodNymph, #apePic, #AlicePic {
+  background-image: url("../img/elfPicThumb.jpg");
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* line 39, ../sass/styles1.scss */
+#ThumbAlice, #ThumbElf, #Thumb3D {
+  cursor: pointer;
+}
+
+/* line 44, ../sass/styles1.scss */
+.card {
+  background-color: #EEE;
+  margin-top: 10px;
+}
+
+/* line 50, ../sass/styles1.scss */
+#videoContainer {
+  border: 2px;
+  border-color: grey;
+  background-color: #EEE;
+  padding: 10px 0px;
+}
+
+/* line 57, ../sass/styles1.scss */
+.pcPic {
+  width: 100%;
+  padding: 0px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/* line 66, ../sass/styles1.scss */
+#PC {
+  position: absolute;
+  display: block;
+  top: 5%;
+  left: 0%;
+  width: 100%;
+  z-index: 1;
+}
+
+/* line 76, ../sass/styles1.scss */
+#Tablet {
+  position: absolute;
+  display: block;
+  top: 39.5%;
+  left: 31%;
+  width: 9.5%;
+  z-index: 5;
+  -moz-transition: all 1s 0.2s;
+  -o-transition: all 1s 0.2s;
+  -webkit-transition: all 1s;
+  -webkit-transition-delay: 0.2s;
+  transition: all 1s 0.2s;
+}
+
+/* line 87, ../sass/styles1.scss */
+#Tablet.loadPosition {
+  left: 0%;
+  top: 10%;
+  width: 24%;
+}
+
+/* line 93, ../sass/styles1.scss */
+#Mobile {
+  display: block;
+  position: absolute;
+  top: 46%;
+  left: 63%;
+  width: 4.5%;
+  z-index: 4;
+  -moz-transition: width 1s 0.2s, left 1s 0.2s, top 1s 0.2s;
+  -o-transition: width 1s 0.2s, left 1s 0.2s, top 1s 0.2s;
+  -webkit-transition: width 1s, left 1s, top 1s;
+  -webkit-transition-delay: 0.2s, 0.2s, 0.2s;
+  transition: width 1s 0.2s, left 1s 0.2s, top 1s 0.2s;
+}
+
+/* line 104, ../sass/styles1.scss */
+#Tablet2 {
+  position: absolute;
+  display: block;
+  top: 51%;
+  left: 42.5%;
+  width: 3.75%;
+  z-index: 2;
+  -moz-transition: width 1s 0.2s, left 1s 0.2s, top 1s 0.2s;
+  -o-transition: width 1s 0.2s, left 1s 0.2s, top 1s 0.2s;
+  -webkit-transition: width 1s, left 1s, top 1s;
+  -webkit-transition-delay: 0.2s, 0.2s, 0.2s;
+  transition: width 1s 0.2s, left 1s 0.2s, top 1s 0.2s;
+}
+
+/* line 114, ../sass/styles1.scss */
+#Mobile2 {
+  display: block;
+  position: absolute;
+  top: 53%;
+  left: 55%;
+  width: 2%;
+  z-index: 3;
+  -moz-transition: width 1s 0.2s, left 1s 0.2s, top 1s 0.2s;
+  -o-transition: width 1s 0.2s, left 1s 0.2s, top 1s 0.2s;
+  -webkit-transition: width 1s, left 1s, top 1s;
+  -webkit-transition-delay: 0.2s, 0.2s, 0.2s;
+  transition: width 1s 0.2s, left 1s 0.2s, top 1s 0.2s;
+}
+
+/* line 124, ../sass/styles1.scss */
+#introText1 {
+  display: none;
+}
+
+/* line 127, ../sass/styles1.scss */
+#introText2 {
+  display: block;
+}
+
+/* line 131, ../sass/styles1.scss */
+#collageParent {
+  display: block;
+  position: relative;
+}
+
+/* line 136, ../sass/styles1.scss */
+#collage {
+  display: block;
+  position: relative;
+  width: 94%;
+  left: 3%;
+  top: 7%;
+  z-index: 1;
+}
+
+/* line 145, ../sass/styles1.scss */
+#designCode {
+  display: block;
+  position: absolute;
+  width: 94%;
+  left: 3%;
+  top: 7%;
+  z-index: 2;
+  opacity: 0;
+  -moz-transition-delay: 1s;
+  -o-transition-delay: 1s;
+  -webkit-transition-delay: 1s;
+  transition-delay: 1s;
+  -moz-transition: all 1.5s ease-out;
+  -o-transition: all 1.5s ease-out;
+  -webkit-transition: all 1.5s ease-out;
+  transition: all 1.5s ease-out;
+}
+
+/* line 157, ../sass/styles1.scss */
+#designCode.takePosition {
+  opacity: 1;
+}
+
+/* line 161, ../sass/styles1.scss */
+.card {
+  min-height: 100%;
+}
+
+/* line 165, ../sass/styles1.scss */
+footer {
+  color: white;
+}
+
+/* line 168, ../sass/styles1.scss */
+footer a:hover, h6 {
+  text-decoration: none;
+  color: #bbb;
+}
+
+/* line 174, ../sass/styles1.scss */
+#dcTrigger {
+  position: absolute;
+  height: 1px;
+  top: 10%;
+  left: 10%;
+}
+
+@media (min-width: 970px) {
+  /* line 182, ../sass/styles1.scss */
+  #introText1 {
+    display: block;
+  }
+
+  /* line 185, ../sass/styles1.scss */
+  #introText2 {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  /* line 193, ../sass/styles1.scss */
+  .pcPic {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+@media (max-width: 575px) {
+  /* line 202, ../sass/styles1.scss */
+  collageGParent {
+    justify-content: center;
+  }
+
+  /* line 206, ../sass/styles1.scss */
+  #collage {
+    width: 80%;
+    margin: 0px auto;
+  }
+
+  /* line 212, ../sass/styles1.scss */
+  #elf {
+    width: 32%;
+  }
+
+  /* line 216, ../sass/styles1.scss */
+  #nebula {
+    width: 23%;
+  }
+}
+/* line 223, ../sass/styles1.scss */
+#keepRatio {
+  position: relative;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  padding: 0px;
+  width: 100%;
+  padding-bottom: 57% !important;
+  /* 44% */
+}

@@ -11,6 +11,16 @@
     margin-bottom: 0px !important;
 }
 
+footer h5, footer a {
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -117,6 +127,13 @@ body {
 .card {
     background-color: #EEE;
     margin-top: 10px;
+}
+
+#videoContainer {
+    border: 2px;
+    border-color: grey;
+    background-color: #EEE;
+    padding: 10px 0px;
 }
 
 .pcPic {
@@ -239,6 +256,18 @@ body {
 
 #designCode.takePosition {
 opacity: 1;
+}
+
+.card {
+    min-height: 100%;
+}
+
+footer {
+    color: white;
+}
+footer a:hover, h6{
+    text-decoration: none;
+    color: #bbb;
 }
 
 
