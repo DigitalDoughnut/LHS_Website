@@ -53,7 +53,7 @@
   </nav>
 
   
-  <div class="container padmar" style="height: 100%">
+  <div class="container padmar">
     <div class="row pb-5 pt-3">
       <div class="col-10 col-md-7 mx-auto text-center padmar">
         <h3 id="introText1">David Salisbury is a web developer and visual effects artist based in South Yorkshire, England</h3>
@@ -80,7 +80,7 @@
 
         <div class="col-md-6 col-lg-7 py-4">
           <div class="text-center">
-            <h4 id="dcTrigger" class="my-3 display-4">About David</h4>
+            <h4 class="my-3 display-4">About David</h4>
           </div>
           <p class="pt-3">David has a background in visual effects, having studied and later taught on the Digital Visual Effects MSc at
             the University of Kent. His colleagues and students have gone on to work on top Hollywood films including The
@@ -90,11 +90,11 @@
             React and node.js.
           </p>
         </div>
-        <div id="collageGParent" class="col-md-6 col-lg-5 pt-sm-5 pt-md-3 pt-lg-1 px-none">
-          <div id="collageParent">
-            <div id="nebularTrigger"></div>
-            <img id="collage" class="" src="img/collage.jpg" width="100%" alt="Collage of artwork">
-            <img id="designCode" class="" src="img/designCode.png" width="100%" alt="Design and code">
+        <div id="davidGParent" class="col-md-6 col-lg-5 pt-sm-5 pt-md-3 pt-lg-1 px-none">
+          <div id="davidParent">
+            <div id="davidTrigger"></div>
+            <img id="davidBW" class="" src="img/DavidProfilePicBW.jpg" width="60%" alt="Photo of David Salisbury">
+            <img id="david" class="" src="img/DavidProfilePic.jpg" width="60%" alt="Photo of David Salisbury">
           </div>
         </div>
       </div>
@@ -114,7 +114,7 @@
             <img id="ThumbAlice" data-featherlight="img/Alice.jpg" class="card-img-top" src="img/AliceThumbWide.jpg" alt="">
             <div class="card-body">
               <h4 class="card-title">Photo Enhancement</h4>
-              <p class="card-text">I enjoy photography and use software to enhance images via sky replacements, colour correction, blurring and
+              <p class="card-text">I enjoy photography and the use of software to enhance images via sky replacements, colour correction, blurring and
                 sharpening.
               </p>
             </div>
@@ -124,7 +124,7 @@
 
         <div class="col-10 col-sm-8 col-md-4 col-lg-3 pb-2">
           <div class="card">
-            <img id="ThumbElf" data-featherlight="img/elfPic.jpg" class="card-img-top" src="img/ElfPicThumb.jpg" alt="Female Elf">
+            <img id="ThumbElf" data-featherlight="img/elfPic.jpg" class="card-img-top" src="img/elfPicThumb.jpg" alt="Female Elf">
             <div class="card-body">
               <h4 class="card-title">Photo Manipulation</h4>
               <p class="card-text">I am equally at ease using Photoshop to create more complex digital artwork. (Hover over pic to see
@@ -148,30 +148,30 @@
       <!--End of Row -->
 
       <div class="row py-md-3 justify-content-center">
-        <div class="col-10 col-sm-8 col-md-4 col-lg-3 mb-2">
-          <div class="border border-secondary rounded pb-3 mb-3" style="background-color: #EEE; min-height: 100%;">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/nqj4c1ND-CI" frameborder="0" allowfullscreen></iframe>
-          </div>
-          <h4 class="px-3 py-2">Visual Effects</h4>
-          <p class="px-3">I am experienced in the use of Maya, After Effects and Photoshop to produce video animation and VFX.
-             (Please watch on a high resolution.)
-          </p>
-        </div>
-        </div>
 
-
-          <div class="col-10 col-sm-8 col-md-4 col-lg-3 mb-2">
-              <div class="border border-secondary rounded pb-3 mb-3" style="background-color: #EEE; min-height: 100%;">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/z9EsIT-Fwgc" frameborder="0" allowfullscreen></iframe>
+          <div class="col-10 col-sm-8 col-md-4 col-lg-3 pb-2">
+              <div class="card">
+                <img id="thumb3DVid"  class="card-img-top" href="https://www.youtube.com/embed/nqj4c1ND-CI" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" data-featherlight-iframe-width="560" data-featherlight-iframe-height="315" src="img/vid3D.jpg" alt="3D model of mansion">     
+                  
+                <div class="card-body">
+                  <h4 class="card-title">Visual Effects</h4>
+                  <p class="card-text">I am experienced in the use of Maya, After Effects and Photoshop to produce video animation and VFX.
+                      (Please watch on a high resolution.)</p>
+                </div>
+              </div>
             </div>
-            <h4 class="px-3 py-2">Promotional Video</h4>
-            <p class="px-3">I have produced promotional videos on commission, as well as filming a short documentary. (Unfortunately, as the films have since been updated, this low resolution version
-              is the only version left available.) 
-            </p>
-          </div>
-          </div>
+
+            <div class="col-10 col-sm-8 col-md-4 col-lg-3 pb-2">
+                <div class="card">
+                  <img id="thumbPromoVid"  class="card-img-top" href="https://www.youtube.com/embed/z9EsIT-Fwgc" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="false" data-featherlight-iframe-width="560" data-featherlight-iframe-height="315" src="img/promoVid.jpg" alt="University of Kent promotional video titles">     
+                    
+                  <div class="card-body">
+                    <h4 class="card-title">Promotional Video</h4>
+                    <p class="card-text">I have produced promotional videos on commission, as well as filming a short documentary. (This is a low resolution version).</p>
+                  </div>
+                </div>
+              </div>
+
         </div>
     </div>
 
@@ -202,25 +202,32 @@
       <div class="row py-5">
         <div class="col-md-8">
 
-          <form>
+          <form action="mail.php" method="POST">
               <div class="form-group">
                   <label for="inputName">Name</label>
-                  <input type="text" class="form-control" id="inputName" placeholder="Name">
+                  <input type="text" name="name" class="form-control" id="inputName" placeholder="Name">
               </div>
               <div class="form-group">
                 <label for="inputEmail">Email address</label>
-                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
-                <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+                <input type="email" name="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">Your email will not be shared.</small>
               </div>
               <div class="form-group">
                   <label for="inputMessage">Message</label>
-                  <textarea class="form-control" id="inputMessage" placeholder="Type message"></textarea>
+                  <textarea class="form-control" name="message" id="inputMessage" placeholder="Type message"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary">Send email</button>
             </form>
         </div>
         <div class="col-md-4">
-          <img class="my-3" style="max-width: 200px; width: 80%; border: 1px solid black; box-shadow: 3px 3px 3px #777;" src="img/DavidProfilePic.jpg" alt="Photo of David Salisbury">
+
+            <div id="collageGParent">
+                <div id="collageParent">
+                  <div id="nebularTrigger"></div>
+                  <img id="collage" class="" src="img/collage.jpg" width="100%" alt="Collage of artwork">
+                  <img id="designCode" class="" src="img/designCode.png" width="100%" alt="Design and code">
+                </div>
+            </div>
         </div>
       </div>
     </div>

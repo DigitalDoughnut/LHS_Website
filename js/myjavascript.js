@@ -18,25 +18,41 @@ $("#dcTrigger").mouseover(function(){
 
 $( "#Thumb3D" ).hover(
     function() {
-      $( this ).attr("src","img/3DModelTexThumbOver.jpg");
+      $( this ).fadeTo(300, 0.8).attr("src","img/3DModelTexThumbOver.jpg").fadeTo(200,1);
     }, function() {
-      $( this ).attr("src","img/3DModelTexThumb.jpg");
+      $( this ).fadeTo(300, 0.8).attr("src","img/3DModelTexThumb.jpg").fadeTo(200,1);
     }
   );
 
   $( "#ThumbAlice" ).hover(
     function() {
-      $( this ).attr("src","img/AliceThumbWideOver.jpg");
+      $( this ).fadeTo(300, 0.8).attr("src","img/AliceThumbWideOver.jpg").fadeTo(200,1);
     }, function() {
-      $( this ).attr("src","img/AliceThumbWide.jpg");
+      $( this ).fadeTo(300, 0.8).attr("src","img/AliceThumbWide.jpg").fadeTo(200,1);
+    }
+  );
+
+  $( "#thumbPromoVid" ).hover(
+    function() {
+      $( this ).attr("src","img/promoVidOver.jpg");
+    }, function() {
+      $( this ).attr("src","img/promoVid.jpg");
+    }
+  );
+
+  $( "#thumb3DVid" ).hover(
+    function() {
+      $( this ).attr("src","img/vid3DOver.jpg");
+    }, function() {
+      $( this ).attr("src","img/vid3D.jpg");
     }
   );
 
   $( "#ThumbElf" ).hover(
     function() {
-      $( this ).attr("src","img/elfPicThumbOver.jpg");
+      $( this ).fadeTo(300, 0.8).attr("src","img/elfPicThumbOver.jpg").fadeTo(200, 1);
     }, function() {
-      $( this ).attr("src","img/elfPicThumb.jpg");
+      $( this ).fadeTo(300, 0.8).attr("src","img/elfPicThumb.jpg").fadeTo(200, 1);
     }
   );
 
@@ -48,6 +64,13 @@ var designCodeScene = new ScrollMagic.Scene ({
     triggerElement: '#designCode'
 })
 .setClassToggle('#designCode' , 'takePosition')
+.addIndicators()
+.addTo(controller);
+
+var davidProfileScene = new ScrollMagic.Scene ({
+  triggerElement: '#davidTrigger'
+})
+.setClassToggle('#david' , 'takePosition')
 .addIndicators()
 .addTo(controller);
 
