@@ -64,15 +64,15 @@ var designCodeScene = new ScrollMagic.Scene ({
     triggerElement: '#designCode'
 })
 .setClassToggle('#designCode' , 'takePosition')
-.addIndicators()
 .addTo(controller);
 
 var davidProfileScene = new ScrollMagic.Scene ({
   triggerElement: '#davidTrigger'
 })
 .setClassToggle('#david' , 'takePosition')
-.addIndicators()
 .addTo(controller);
 
 
 });
+
+//.addIndicators() goes before addTo(controller) for testing
