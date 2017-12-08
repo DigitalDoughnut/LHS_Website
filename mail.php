@@ -3,7 +3,7 @@ echo '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="vie
 . '<meta name="description" content="">'
 .  '<meta name="author" content="">'
 .  '<link rel="icon" href="img/favicon.png">'
-.  '<title>david m salisbury</title>'
+.  '<title>davidmsalisbury</title>'
 .  '<link href="stylesheets/bootstrap.min.css" rel="stylesheet">'
 .  '<link href="stylesheets/styles1.css" rel="stylesheet">'
 .  '</head><body>';
@@ -12,15 +12,15 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 $formcontent="From: $name \n Message: $message";
-$recipient = "david@naturallypositive.org";
-$subject = "Contact Form";
+$recipient = "info@davidmsalisbury.com";
+$subject = "Contact Form - davidmsalisbury.com";
 $mailheader = "From: $email \r\n";
 
 if(isset($_POST['g-recaptcha-response'])){
     $captcha=$_POST['g-recaptcha-response'];
   }
   if(!$captcha){
-    echo '<h5>Please check the the captcha form.</h5>';
+    echo '<h5>Please click the back arrow and check the captcha form.</h5>';
     exit;
   }
   $secretKey = "6Lf-GzcUAAAAAKt4_x1Tvh9I1hp91uFPRfYgIQWX";
