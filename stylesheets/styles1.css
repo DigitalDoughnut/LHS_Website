@@ -48,12 +48,17 @@ footer ul {
 }
 
 /* line 45, ../sass/styles1.scss */
+#about {
+  background-color: #a3a2a2;
+}
+
+/* line 49, ../sass/styles1.scss */
 .card {
   background-color: #EEE;
   margin-top: 10px;
 }
 
-/* line 51, ../sass/styles1.scss */
+/* line 55, ../sass/styles1.scss */
 #videoContainer {
   border: 2px;
   border-color: grey;
@@ -61,7 +66,7 @@ footer ul {
   padding: 10px 0px;
 }
 
-/* line 58, ../sass/styles1.scss */
+/* line 62, ../sass/styles1.scss */
 .pcPic {
   width: 100%;
   padding: 0px;
@@ -69,7 +74,7 @@ footer ul {
   padding-right: 2%;
 }
 
-/* line 67, ../sass/styles1.scss */
+/* line 71, ../sass/styles1.scss */
 #PC {
   position: absolute;
   display: block;
@@ -79,7 +84,7 @@ footer ul {
   z-index: 1;
 }
 
-/* line 77, ../sass/styles1.scss */
+/* line 81, ../sass/styles1.scss */
 #Tablet {
   position: absolute;
   display: block;
@@ -94,14 +99,14 @@ footer ul {
   transition: all 1s 0.2s;
 }
 
-/* line 88, ../sass/styles1.scss */
+/* line 92, ../sass/styles1.scss */
 #Tablet.loadPosition {
   left: 0%;
   top: 10%;
   width: 24%;
 }
 
-/* line 94, ../sass/styles1.scss */
+/* line 98, ../sass/styles1.scss */
 #Mobile {
   display: block;
   position: absolute;
@@ -116,7 +121,7 @@ footer ul {
   transition: width 1s 0.2s, left 1s 0.2s, top 1s 0.2s;
 }
 
-/* line 105, ../sass/styles1.scss */
+/* line 109, ../sass/styles1.scss */
 #Tablet2 {
   position: absolute;
   display: block;
@@ -131,7 +136,7 @@ footer ul {
   transition: width 1s 0.2s, left 1s 0.2s, top 1s 0.2s;
 }
 
-/* line 115, ../sass/styles1.scss */
+/* line 119, ../sass/styles1.scss */
 #Mobile2 {
   display: block;
   position: absolute;
@@ -146,23 +151,23 @@ footer ul {
   transition: width 1s 0.2s, left 1s 0.2s, top 1s 0.2s;
 }
 
-/* line 125, ../sass/styles1.scss */
+/* line 129, ../sass/styles1.scss */
 #introText1 {
   display: none;
 }
 
-/* line 128, ../sass/styles1.scss */
+/* line 132, ../sass/styles1.scss */
 #introText2 {
   display: block;
 }
 
-/* line 132, ../sass/styles1.scss */
+/* line 136, ../sass/styles1.scss */
 #collageParent {
   display: block;
   position: relative;
 }
 
-/* line 137, ../sass/styles1.scss */
+/* line 141, ../sass/styles1.scss */
 #collage {
   display: block;
   position: relative;
@@ -172,7 +177,7 @@ footer ul {
   z-index: 1;
 }
 
-/* line 146, ../sass/styles1.scss */
+/* line 150, ../sass/styles1.scss */
 #designCode {
   display: block;
   position: absolute;
@@ -191,19 +196,19 @@ footer ul {
   transition: all 1.5s ease-out;
 }
 
-/* line 158, ../sass/styles1.scss */
+/* line 162, ../sass/styles1.scss */
 #designCode.takePosition {
   opacity: 1;
 }
 
-/* line 162, ../sass/styles1.scss */
+/* line 166, ../sass/styles1.scss */
 #davidParent {
   display: block;
   position: relative;
   padding: 0;
 }
 
-/* line 168, ../sass/styles1.scss */
+/* line 172, ../sass/styles1.scss */
 #davidBW {
   display: block;
   position: relative;
@@ -214,7 +219,7 @@ footer ul {
   box-shadow: 3px 3px 3px #777;
 }
 
-/* line 178, ../sass/styles1.scss */
+/* line 182, ../sass/styles1.scss */
 #david {
   display: block;
   position: absolute;
@@ -235,78 +240,78 @@ footer ul {
   transition: all 1.5s ease-out;
 }
 
-/* line 192, ../sass/styles1.scss */
+/* line 196, ../sass/styles1.scss */
 #david.takePosition {
   opacity: 1;
 }
 
-/* line 196, ../sass/styles1.scss */
+/* line 200, ../sass/styles1.scss */
 .card {
   min-height: 100%;
 }
 
-/* line 200, ../sass/styles1.scss */
+/* line 204, ../sass/styles1.scss */
 #thumbPromoVid {
   cursor: pointer;
 }
 
-/* line 204, ../sass/styles1.scss */
+/* line 208, ../sass/styles1.scss */
 #thumb3DVid {
   cursor: pointer;
 }
 
-/* line 208, ../sass/styles1.scss */
+/* line 212, ../sass/styles1.scss */
 footer {
   color: white;
 }
 
-/* line 211, ../sass/styles1.scss */
+/* line 215, ../sass/styles1.scss */
 footer a:hover, h6 {
   text-decoration: none;
   color: #bbb;
 }
 
 @media (min-width: 970px) {
-  /* line 217, ../sass/styles1.scss */
+  /* line 221, ../sass/styles1.scss */
   #introText1 {
     display: block;
   }
 
-  /* line 220, ../sass/styles1.scss */
+  /* line 224, ../sass/styles1.scss */
   #introText2 {
     display: none;
   }
 }
 @media (max-width: 767px) {
-  /* line 228, ../sass/styles1.scss */
+  /* line 232, ../sass/styles1.scss */
   .pcPic {
     padding-left: 2%;
     padding-right: 2%;
   }
 }
 @media (max-width: 575px) {
-  /* line 237, ../sass/styles1.scss */
+  /* line 241, ../sass/styles1.scss */
   collageGParent {
     justify-content: center;
   }
 
-  /* line 241, ../sass/styles1.scss */
+  /* line 245, ../sass/styles1.scss */
   #collage {
     width: 80%;
     margin: 0px auto;
   }
 
-  /* line 247, ../sass/styles1.scss */
+  /* line 251, ../sass/styles1.scss */
   #elf {
     width: 32%;
   }
 
-  /* line 251, ../sass/styles1.scss */
+  /* line 255, ../sass/styles1.scss */
   #nebula {
     width: 23%;
   }
 }
-/* line 258, ../sass/styles1.scss */
+/* line 262, ../sass/styles1.scss */
 #keepRatio {
   position: relative;
   margin-top: 0px !important;
