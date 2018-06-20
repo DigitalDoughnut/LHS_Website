@@ -3,12 +3,28 @@
 
 body {
     overflow-x: hidden;
+    
+}
+
+.calligraphyBG {
+    background: #fff url("../img/HandwritingBG.jpg") repeat center;
+}
+
+.starsBG {
+    background: #000 url("../img/StarryNightWeb.png") repeat center;
+}
+
+#Legacy {
+    color: #000;
 }
 
 .nav {
     background-color: #fff;
 }
 
+p {
+    font-size: 120%;
+}
 .padmar {
     width: 100%;
 
@@ -17,6 +33,35 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+#lauren {
+    height: 460px;
+}
+
+#vimeoAD {
+   // width: 640px;
+   // height: 360px;
+}
+
+.bg-green {
+    background-color: rgba(17,56,2,.87);
+}
+
+@font-face {
+    font-family: freeStyle;
+    src: url(../img/FreestyleScript.ttf);
+}
+
+.freeStyleH1 {
+    font-family: freeStyle;
+    font-size: 4em;
+}
+
+.freeStyleH4 {
+    font-family: freeStyle;
+    font-size: 2.5em;
+}
+
 
 footer h5, footer a {
     color: white;
